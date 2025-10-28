@@ -1,0 +1,3 @@
+library(readr)
+JPM_data <- read_csv("JPMorganData.csv")
+View(JPM_data)
