@@ -53,4 +53,5 @@ ggplot(JPM_data, aes(x = date, y = JPM.Close)) +
        y = "Closing Price ($)")
 
 write.csv(JPM_data, "JPMorgan_cleaned.csv", row.names = FALSE)
+
 getwd()
